@@ -109,8 +109,6 @@ form {
   display: flex;
   flex-direction: row;
   gap: 10px;
-  position: fixed;
-  bottom: 0;
 }
 
 textarea {
@@ -136,35 +134,14 @@ form img {
   height: 24px;
 }
 
+
+
+
+
+
 .credit {
   background: #a5a6a5;
   color: #fff;
   padding: 10px;
   border-radius: 0px 0px 24px 24px;
-}
-
-/* Media Queries for Mobile Responsiveness */
-
-@media (max-width: 600px) {
-  .chat {
-    flex-direction: column;
-    align-items: center;
-    gap: 5px;
-  }
-
-  .profile {
-    width: 30px;
-    height: 30px;
-  }
-
-  .profile img {
-    width: 60%;
-    height: 60%;
-  }
-
-
-
- 
-
-
 }
